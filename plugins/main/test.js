@@ -1,7 +1,7 @@
 export default {
    names: ['Main Menu'],
-   tags: ['ya'],
-   command: ['ya', 'y'],
+   tags: ['main'],
+   command: ['bot'],
    start: async (m, { 
       Format
    }) => {
@@ -9,9 +9,7 @@ export default {
         *Example Simply Send message
         */
       //example reply message without advertisement (text, image, jid)
-      m.adReply(' Contoh ', setting.thumbnail, m.chat)
-      await Format.sleep(3000)      
-      //example reply message with advertisement (text, image, jid)
-      m.adsReply(' Contoh ', setting.thumbnail, m.chat);              
+      m.adReply(' Bot Online ', setting.thumbnail, m.chat)
+      await Format.sleep(3000)                  
    }
 };
