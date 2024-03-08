@@ -18,9 +18,9 @@ export default {
       let pointer = '⭓'
       let bottom = '└────────✦'
       let num = conn.decodeJid(setting.owner);
-      let info = `Selamat ${waktu.suasana} Bangsat\n@${m.sender.split('@')[0]} 💮\n`
+      let info = `Selamat ${waktu.suasana} Ngaf\n@${m.sender.split('@')[0]} 💮\n`
       info += `${star} Simple WhatsApp Bot \nBy ${setting.footer}\n`
-      info += `📚 Library : baileys-wa@latest\n`
+      info += `📚 Library : baileys\n`
       info += `👤 Owner : wa.me/${num.split('@')[0]}\n`
       
       info += ` Network Bot Usage :\n📥 Download: ${Download}\n📤 Upload: ${Upload}\n\n${jembut}`
