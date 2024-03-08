@@ -2,7 +2,7 @@ import { ttdl } from '../../lib/download.js'
 export default {
    names: ['Downloader'],
    tags: ['tiktok', 'titit'],
-   command: ['tt', 'tiktok', 'ttdl', 'titit', 'ttnowm'],
+   command: ['tt', 'tiktok', 'ttdl', 'ttnowm'],
    start: async (m, {
       conn,
       text,
