@@ -15,6 +15,7 @@ import {
 import {
    signalGroup
 } from 'maleficent-bot';
+import server from './server.js'
 const startWhatsApp = async () => {
    const store = makeInMemoryStore({
       logger: Pino().child({
