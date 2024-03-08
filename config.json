@@ -1,0 +1,33 @@
+{
+  "owner": "6281563372282@s.whatsapp.net",
+  "ownerNumber": [
+    "6281359053674@s.whatsapp.net",
+    "628xxx@s.whatsapp.net"
+  ],
+  "readme": "isi nomornya ownerNumber sesuai ada berapa no kalian mau banyak nomor juga bisa, jangan lupa tanda koma nya harus pas biar ga eror , install modul pake npm i yah jangan yarn, yarn gaje",
+  "contact": "6281359053674",
+  "botName": "Teh Hitam ⚫",
+  "ownerName": "Teh Putih",
+  "footer": "Ⓔⓢⓣⓔⓗ",
+  "sosmed": "https://www.tiktok.com/@xemet_majapahit?_t=8kVA5XyfJPW&_r=1",
+  "thumbnail": "https://telegra.ph/file/325347261bfb78d1372cf.jpg",
+  "music": "https://qu.ax/TJOd.opus",
+  "ram": 800,
+  "auto_dl": false,
+  "typing": false,
+  "recording": false,
+  "read": true,
+  "self": false,
+  "qr": false,
+  "pairing": true,
+  "readme2": "botNumber adalah nomor yang mau di jadikan bot",
+  "botNumber": 6287765570421,
+  "group": {
+    "adReply": true,
+    "limit_adReply": false,
+    "limit_message": true,
+    "link": "https://wa.me/",
+    "bye": "Bye \n%user \nHas Left From %subject Group",
+    "welcome": "*Selamat Datang Member sialan*\n*%user* \n*Di 🚾 %subject*\n*intro dulu rek*\n*Nama:*\n*Umur:*\n*Asal Kota:*\n"
+  }
+}
