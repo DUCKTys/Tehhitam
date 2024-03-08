@@ -8,8 +8,16 @@ import {
 import {
    fileURLToPath
 } from 'url'
+import express from 'express'
 process.on('uncaughtException', console.log);
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const app = express(); 
+app.get('/', (req, res) => {
+  res.send('Hello Express app!')
+}) 
+app.listen(3000, () => {
+  console.log('server started')
+})
 const start = () => {
    let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
    let p = spawn(process.argv[0], args, {
