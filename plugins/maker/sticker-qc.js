@@ -19,7 +19,7 @@ export default {
       let obj = {
          "type": "quote",
          "format": "png",
-         "backgroundColor": apiColor,
+         "backgroundColor": "#000000",
          "width": 512,
          "height": 768,
          "scale": 2,
