@@ -31,7 +31,6 @@ const startWhatsApp = async () => {
       } = update;
       if (connection === 'open') {
          console.log(`Connection :`, connection)
-      if (opts['server']) (await import('./server.js')).default(global.conn, PORT)
       } else if (connection === 'close') {
          lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? startWhatsApp() : console.log('Koneksi Terputus...')
       }
