@@ -9,7 +9,7 @@ export default {
         *Example Simply Send message
         */
       //example reply message without advertisement (text, image, jid)
-      m.adReply(' Bot Online ', setting.thumbnail, m.chat)
+      m.adReply(' Online\n\nada yg bisa saya bantu?', setting.thumbnail, m.chat)
       await Format.sleep(3000)                  
    }
 };
