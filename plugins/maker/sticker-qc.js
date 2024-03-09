@@ -42,13 +42,11 @@ export default {
             'Content-Type': 'application/json'
          }
       })
-      m.adReply(mess.wait, setting.thumbnail, m.chat)
-      let buffer = await Buffer.from(json.data.result.image, 'base64')
       conn.sendImageAsSticker(m.chat, buffer, m, {
          packname: pack,
          author: own
       });
    },
-   limit: 3,
+   limit: 1,
    premium: false
 };
