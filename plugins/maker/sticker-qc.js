@@ -42,6 +42,7 @@ export default {
             'Content-Type': 'application/json'
          }
       })
+      let buffer = await Buffer.from(json.data.result.image, 'base64')
       conn.sendImageAsSticker(m.chat, buffer, m, {
          packname: pack,
          author: own
